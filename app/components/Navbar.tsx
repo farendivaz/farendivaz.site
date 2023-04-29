@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { SiLinkedin } from "react-icons/si";
+import ThemeChanger from "../ThemeChanger";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -50,7 +51,7 @@ export default function Navbar() {
         </Link>
         <li></li>
       </ul>
-      <SiLinkedin />
+      <ThemeChanger />
     </nav>
   );
 }
