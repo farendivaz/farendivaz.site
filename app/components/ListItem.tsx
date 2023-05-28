@@ -12,15 +12,15 @@ export default function ListItem({ post }: Props) {
   const formattedDate = getFormattedDate(date);
 
   return (
-    <li className="text-base md:text-lg p-4 dark:text-white/90">
+    <li className="text-sm md:text-lg p-4 dark:text-white/90">
       <Link
-        className="underline underline-offset-4 decoration-2 decoration-dotted hover:text-black/70 dark:hover:text-white"
+        className="underline underline-offset-4 decoration-2 decoration-dotted hover:text-black/70 dark:hover:text-white font-semibold"
         href={`/posts/${id}`}
       >
         {title}
       </Link>
       <br />
-      <p className="text-sm mt-1">{formattedDate}</p>
+      <p className="text-xs md:text-sm mt-1">{formattedDate}</p>
     </li>
   );
 }

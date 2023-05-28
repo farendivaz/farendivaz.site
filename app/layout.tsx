@@ -22,10 +22,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.className} suppressHydrationWarning>
-      <body className="w-full md:w-4/6 mx-auto bg-white text-black/90 dark:bg-black dark:text-white/90">
+      <body className="w-full h-full mx-auto bg-cover bg-zinc-100 text-black/90 dark:bg-zinc-900 dark:text-white/90">
         <Providers>
-          <Navbar />
-          {children}
+          <div className="main">
+            <div className="gradient"></div>
+          </div>
+          <main className="app">
+            <Navbar />
+            {children}
+          </main>
         </Providers>
       </body>
     </html>

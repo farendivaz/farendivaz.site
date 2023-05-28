@@ -11,16 +11,16 @@ export default function ProjectItem({ project }: Props) {
   const { id, name, description, link, techStack } = project;
 
   return (
-    <li className="text-base md:text-lg p-4 dark:text-white/90">
+    <li className="text-sm md:text-lg p-4 dark:text-white/90">
       <Link
-        className="underline underline-offset-4 decoration-2 decoration-dotted hover:text-black/70 dark:hover:text-white"
+        className="underline underline-offset-4 decoration-2 decoration-dotted hover:text-black/70 dark:hover:text-white font-semibold"
         href={link}
         target="__blank"
       >
         {name}
       </Link>
       <br />
-      <p className="text-md my-2">{description}</p>
+      <p className="text-sm md:text-base my-2">{description}</p>
       <div className="flex">
         {techStack.map(
           (

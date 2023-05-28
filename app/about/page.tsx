@@ -7,35 +7,42 @@ import IconTooltip from "../components/IconTooltip";
 export default function About() {
   return (
     <main className="w-11/12 md:w-5/6 mx-auto mt-16 dark:text-white/90">
-      <h1 className="text-3xl font-bold hidden lg:block">Fariz Dandy</h1>
-      <section className="w-full mx-auto flex flex-col-reverse lg:flex-row gap-4">
-        <div className="flex flex-col gap-4">
-          <p>
-            Hi there! I'm Fariz, a frontend web developer based in Indonesia. I
-            have experience as a laboratory assistant, where I taught web
-            programming and basic programming with Python to students of all
-            levels.
-          </p>
-          <p>
-            Through my teaching experience, I developed a passion for helping
-            others learn and grow in the field of web development. I am a
-            patient and enthusiastic instructor, and I enjoy breaking down
-            complex concepts into simple, easy-to-understand terms. In addition
-            to teaching, I am also a skilled frontend web developer with a focus
-            on creating beautiful and responsive websites using the latest web
-            technologies such as Next.js and React. I have a strong portfolio of
-            projects that showcase my abilities, and I am always eager to take
-            on new challenges and learn new skills.
-          </p>
-        </div>
-        <img
-          src="/profile.jpg"
-          alt="Man"
-          className="w-[250px] md:w-[280px] rounded-lg mx-auto"
-        />
+      <h1 className="text-2xl font-bold">About me</h1>
+      <section className="text-left prose-base">
+        <p className="w-full md:w-3/4 mb-8">
+          Hey! I'm Fariz. I go by the name of Farendivaz in the online
+          community.
+        </p>
+        <p className="border-b border-zinc-500">
+          I'm currently an undergraduate student majoring in Informatics
+          Engineering in Indonesia. I focus on learning web development,
+          especially frontend with React and Next.js
+        </p>
+        <p>
+          I started learning web development in early 2022 as part of my
+          coursework at university. It all started when one of my classes
+          introduced me to HTML and CSS, and I immediately developed a strong
+          curiosity for them. I found myself thoroughly enjoying the process of
+          delving deeper into the world of web development, and my passion for
+          it only grew stronger with time.
+        </p>
+        <p>
+          Frontend development offers an extensive array of concepts and
+          technologies to master, and I'm fueled by my motivation to absorb as
+          much knowledge as possible. I find great joy in learning something new
+          and receiving feedback that helps me grow and enhance my skills.
+        </p>
+        <p>
+          Through this website, I intend to share my projects and write
+          informative blogs. I strongly believe that documenting what I've
+          learned is an effective way to solidify my understanding, while also
+          allowing me to share my knowledge with others. Please don't hesitate
+          to reach out to me if you need any assistance—I'll be more than happy
+          to help
+        </p>
       </section>
       <section className="mt-8">
-        <h2 className="text-xl md:text-3xl font-bold">
+        <h2 className="text-xl md:text-2xl font-bold">
           Current Favourite Tech Stack
         </h2>
         <div className="flex">
