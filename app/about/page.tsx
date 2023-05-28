@@ -10,11 +10,11 @@ export default function About() {
       <h1 className="text-2xl font-bold">About me</h1>
       <section className="text-left prose-base">
         <p className="w-full md:w-3/4 mb-8">
-          Hey! I'm Fariz. I go by the name of Farendivaz in the online
+          Hey! I&apos;m Fariz. I go by the name of Farendivaz in the online
           community.
         </p>
         <p className="border-b border-zinc-500">
-          I'm currently an undergraduate student majoring in Informatics
+          I&apos;m currently an undergraduate student majoring in Informatics
           Engineering in Indonesia. I focus on learning web development,
           especially frontend with React and Next.js
         </p>
@@ -28,17 +28,17 @@ export default function About() {
         </p>
         <p>
           Frontend development offers an extensive array of concepts and
-          technologies to master, and I'm fueled by my motivation to absorb as
-          much knowledge as possible. I find great joy in learning something new
-          and receiving feedback that helps me grow and enhance my skills.
+          technologies to master, and I&apos;m fueled by my motivation to absorb
+          as much knowledge as possible. I find great joy in learning something
+          new and receiving feedback that helps me grow and enhance my skills.
         </p>
         <p>
           Through this website, I intend to share my projects and write
-          informative blogs. I strongly believe that documenting what I've
+          informative blogs. I strongly believe that documenting what I&apos;ve
           learned is an effective way to solidify my understanding, while also
-          allowing me to share my knowledge with others. Please don't hesitate
-          to reach out to me if you need any assistance—I'll be more than happy
-          to help
+          allowing me to share my knowledge with others. Please don&apos;t
+          hesitate to reach out to me if you need any assistance—I&apos;ll be
+          more than happy to help
         </p>
       </section>
       <section className="mt-8">
