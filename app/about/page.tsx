@@ -8,7 +8,7 @@ export default function About() {
   return (
     <main className="w-11/12 md:w-5/6 mx-auto mt-16 dark:text-white/90">
       <h1 className="text-2xl font-bold">About me</h1>
-      <section className="text-left prose-base">
+      <section className="text-left prose-sm md:prose-base">
         <p className="w-full md:w-3/4 mb-8">
           Hey! I&apos;m Fariz. I go by the name of Farendivaz in the online
           community.

@@ -42,7 +42,7 @@ export default async function Post({ params }: { params: { postId: string } }) {
 
   return (
     <main className="mt-16 prose prose-base prose-slate dark:prose-invert mx-auto">
-      <h1 className="text-3xl mt-4 mb-0">{title}</h1>
+      <h1 className="text-xl md:text-2xl mt-4 mb-0">{title}</h1>
       <p className="mt-0">{pubDate}</p>
       <article>
         <section dangerouslySetInnerHTML={{ __html: contentHtml }} />

@@ -18,13 +18,13 @@ export default function Contact() {
           </Link>
         </li>
         <li>
-          Linkedin:{" "}
+          LinkedIn:{" "}
           <Link
             href="https://linkedin.com/in/farizdandy"
             target="__blank"
             className="underline decoration-dotted underline-offset-4 text-black/90 dark:text-white text-sm md:text-base"
           >
-            https://linkedin.com/in/farizdandy
+            linkedin.com/in/farizdandy
           </Link>
         </li>
         <li>
