@@ -41,9 +41,9 @@ export default async function Post({ params }: { params: { postId: string } }) {
   const pubDate = getFormattedDate(date);
 
   return (
-    <main className="mt-16 prose prose-base prose-slate dark:prose-invert mx-auto">
+    <main className="w-11/12 md:w-5/6 mt-16 prose prose-base prose-slate dark:prose-invert mx-auto">
       <h1 className="text-xl md:text-2xl mt-4 mb-0">{title}</h1>
-      <p className="mt-0">{pubDate}</p>
+      <p className="text-sm mt-0">{pubDate}</p>
       <article>
         <section dangerouslySetInnerHTML={{ __html: contentHtml }} />
         <p>
