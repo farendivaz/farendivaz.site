@@ -1,12 +1,18 @@
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiTypescript, SiTailwindcss, SiReact } from "react-icons/si";
+import {
+  SiTypescript,
+  SiJavascript,
+  SiTailwindcss,
+  SiReact,
+} from "react-icons/si";
 
 export const projects = [
   {
     id: 1,
     name: "MovieLand",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    link: "https://nextjs13-movie.vercel.app/",
+    description:
+      "IMDb-inspired app for exploring movies and actors' filmographies.",
+    link: "https://movieland-nextjs13.vercel.app/",
     techStack: [
       {
         name: "React",
@@ -37,10 +43,10 @@ export const projects = [
   },
   {
     id: 2,
-    name: "Project 2",
+    name: "PromptPalace",
     description:
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "https://nextjs13-movie.vercel.app/",
+      "Website for saving and sharing creative prompts for ChatGPT and BARD.",
+    link: "https://prompt-palace.vercel.app/",
     techStack: [
       {
         name: "React",
@@ -62,10 +68,11 @@ export const projects = [
         icon: <SiTailwindcss />,
       },
       {
-        name: "TypeScript",
-        description: " A superset of JavaScript that adds static type checking",
-        link: "https://www.typescriptlang.org/",
-        icon: <SiTypescript />,
+        name: "Javascript",
+        description:
+          "JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else",
+        link: "https://www.javascript.com/",
+        icon: <SiJavascript />,
       },
     ],
   },
