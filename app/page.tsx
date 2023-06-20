@@ -15,7 +15,7 @@ export default function Home() {
           developments in the world of web development
         </p>
       </div>
-      <h2 className="text-lg md:text-xl mt-4 dark:text-white/90 font-semibold ">
+      <h2 className="text-lg md:text-xl mt-8 dark:text-white/90 font-semibold ">
         Featured Posts
       </h2>
       <Posts />
