@@ -78,10 +78,10 @@ export const projects = [
   },
   {
     id: 3,
-    name: "Project 3",
+    name: "Personal Website",
     description:
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    link: "https://nextjs13-movie.vercel.app/",
+      "My Personal Website is built with Next.js 13, Typescript, and Tailwind.",
+    link: "https://farendivaz.site",
     techStack: [
       {
         name: "React",
