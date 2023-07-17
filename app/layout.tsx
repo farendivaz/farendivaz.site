@@ -12,13 +12,12 @@ const inter = Inter({
   display: "swap",
 });
 
-export const metadata = {
-  title: "Farendivaz",
-  description: "Farendivaz Personal Website",
-  // google-site-verification: ""
-};
-{
-}
+// export const metadata = {
+//   title: "Farendivaz",
+//   description: "Farendivaz Personal Website",
+//   // google-site-verification: ""
+// };
+
 export default function RootLayout({
   children,
 }: {
