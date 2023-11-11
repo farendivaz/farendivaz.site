@@ -10,7 +10,7 @@ export default function PostsPage() {
         upcoming projects. I always appreciate feedback or suggestions for
         future blog posts.
       </p>
-      <Posts />
+      <Posts numPosts={-1} />
     </main>
   );
 }

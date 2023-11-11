@@ -18,7 +18,7 @@ export default function Home() {
       <h2 className="text-lg md:text-xl mt-12 dark:text-white/90 font-semibold ">
         Featured Posts
       </h2>
-      <Posts />
+      <Posts numPosts={3} />
       <Projects />
       <Footer />
     </main>
