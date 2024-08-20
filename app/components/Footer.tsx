@@ -2,11 +2,11 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className=" mt-16">
-      <div className="mx-auto w-full max-w-screen-xl">
-        <div className="grid justify-start md:justify-center grid-cols-1 gap-8 px-4 py-6 lg:py-8 md:grid-cols-3 border-t border-zinc-500">
+    <footer className="mt-16 ">
+      <div className="w-full max-w-screen-xl mx-auto">
+        <div className="grid justify-start grid-cols-1 gap-8 px-4 py-6 border-t md:justify-center lg:py-8 md:grid-cols-3 border-zinc-500">
           <div>
-            <h2 className="mb-6 text-xs md:text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-xs font-semibold text-gray-900 uppercase md:text-sm dark:text-white">
               Navigation
             </h2>
             <ul className="text-xs md:text-sm text-black/90 dark:text-white">
@@ -37,7 +37,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-xs md:text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-xs font-semibold text-gray-900 uppercase md:text-sm dark:text-white">
               Social
             </h2>
             <ul className="text-xs md:text-sm text-black/90 dark:text-white">
@@ -68,7 +68,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-xs md:text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-xs font-semibold text-gray-900 uppercase md:text-sm dark:text-white">
               Blog
             </h2>
             <ul className="text-xs md:text-sm text-black/90 dark:text-white">
@@ -80,7 +80,7 @@ export default function Footer() {
                   All Posts
                 </Link>
               </li>
-              <li className="mb-4">
+              {/* <li className="mb-4">
                 <a
                   href="#"
                   className=" hover:underline hover:decoration-dotted hover:decoration-2 hover:underline-offset-2"
@@ -95,7 +95,7 @@ export default function Footer() {
                 >
                   Terms &amp; Conditions
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
